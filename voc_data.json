@@ -1,10 +1,42 @@
 {
     "noun": [
         {
+            "voc": "電車",
+            "ans": "でんしゃ",
+            "accent": "0",
+            "t_cn": "電車",
+            "group": 1,
+            "level": 5
+        },
+        {
             "voc": "車",
             "ans": "くるま",
             "accent": "0",
             "t_cn": "車子",
+            "group": 1,
+            "level": 5
+        },
+        {
+            "voc": "飛行機",
+            "ans": "ひこうき",
+            "accent": "2",
+            "t_cn": "飛機",
+            "group": 1,
+            "level": 5
+        },
+        {
+            "voc": "自転車",
+            "ans": "じてんしゃ",
+            "accent": "2",
+            "t_cn": "腳踏車",
+            "group": 1,
+            "level": 5
+        },
+        {
+            "voc": "交通",
+            "ans": "こうつう",
+            "accent": "0",
+            "t_cn": "交通",
             "group": 1,
             "level": 5
         }
@@ -49,6 +81,14 @@
             "t_cn": "冷的",
             "group": 1,
             "level": 5
+        },
+        {
+            "voc": "暖かい",
+            "ans": "あたたかい",
+            "accent": "0",
+            "t_cn": "溫暖的",
+            "group": 1,
+            "level": 1
         }
     ],
     "adjn": [],

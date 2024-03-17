@@ -15,7 +15,7 @@ accent
 [2] 中高(標示小於字數)
 [3] 尾高(標示與字數相同)
 """
-
+"""
 data_dct = {
     "noun" :[],
     "adj" :[{"voc":"暑い","ans":"あつい","accent":"2","t_cn":"熱的","group":1,"level":5},
@@ -27,22 +27,24 @@ data_dct = {
 }
 input_list = []
 input_dict = {"voc":" ","ans":" ","accent":" ","t_cn":" ","group":" ","level":" "}
+"""
 
-voc = vocabulary()
+if __name__ == "__main__":
+    voc = vocabulary()
 
-while(1):
-    print("單字小教室")
-    chose = input("請選擇功能：(1)測驗(2)新增單字(q)離開")
-    if chose == '1':
-        #setting test
-        voc.setting_test()
-    elif chose == '2':
-        voc.insert_voc()
-    elif chose == 'q':
-        print('結束程式')
-        break
+    while(1):
+        print("單字小教室")
+        chose = input("請選擇功能：(1)測驗(2)新增單字(q)離開")
+        if chose == '1':
+            #setting test
+            voc.setting_test()
+        elif chose == '2':
+            voc.insert_voc()
+        elif chose == 'q':
+            print('結束程式')
+            break
 
-
+'''
 for i in input_dict.keys():
     if i == "group":
         input_dict[i] = 1
@@ -67,3 +69,4 @@ empty_dct = json.load(input_json_file)
 print(empty_dct)
 print(type(empty_dct))
 input_json_file.close()
+'''
