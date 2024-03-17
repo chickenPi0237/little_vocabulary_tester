@@ -48,7 +48,6 @@ class vocabulary:
             return False
         else:
             self.test_list = self.data_dct[self.cat_list[cat-1]]
-        print(self.test_list)
 
         #select vocabulary from specific level
         if lv > 5 or lv < 0:
@@ -144,8 +143,11 @@ class vocabulary:
 
 
     def view_voc(self):
-        print('view')
-
+        set_cat =  self.check_input_int(input('選擇詞性類別： '))-1
+        view_list = self.data_dct[self.cat_list[set_cat]]
+        for item in view_list:
+            #print("Vocabulary：{voc:20s}Hiragana/Spelling：{ans:<12s} Accent：{accent:<10s} CN：{t_cn:<10s} Group:{group:<5d} Levels:{level:<5d}".format(**item))
+            print("Vocabulary：{voc:8s}Hiragana/Spelling：{ans:8s} Accent：{accent:3s} CN：{t_cn:<8s} Group:{group:<5d} Levels:{level:<5d}".format(**item))
 
 
 

@@ -34,12 +34,14 @@ if __name__ == "__main__":
 
     while(1):
         print("單字小教室")
-        chose = input("請選擇功能：(1)測驗(2)新增單字(q)離開")
+        chose = input("請選擇功能：(1)測驗(2)新增單字(3)瀏覽單字(q)離開")
         if chose == '1':
             #setting test
             voc.setting_test()
         elif chose == '2':
             voc.insert_voc()
+        elif chose == '3':
+            voc.view_voc()
         elif chose == 'q':
             print('結束程式')
             break
