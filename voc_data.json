@@ -39,36 +39,36 @@
             "t_cn": "交通",
             "group": 1,
             "level": 5
+        },
+        {
+            "voc": "地下鉄",
+            "ans": "ちかてつ",
+            "accent": "0",
+            "t_cn": " 地下鐵",
+            "group": 1,
+            "level": 5
+        },
+        {
+            "voc": "駅",
+            "ans": "えき",
+            "accent": "１",
+            "t_cn": "火車站",
+            "group": 1,
+            "level": 5
+        },
+        {
+            "voc": "空港",
+            "ans": "くうこう",
+            "accent": "0",
+            "t_cn": "機場",
+            "group": 1,
+            "level": 5
         }
     ],
     "adj": [
         {
             "voc": "暑い",
             "ans": "あつい",
-            "accent": "2",
-            "t_cn": "熱的",
-            "group": 1,
-            "level": 5
-        },
-        {
-            "voc": "暑いあ",
-            "ans": "あついあ",
-            "accent": "2",
-            "t_cn": "熱的",
-            "group": 1,
-            "level": 5
-        },
-        {
-            "voc": "暑い3",
-            "ans": "あつい3",
-            "accent": "2",
-            "t_cn": "熱的",
-            "group": 1,
-            "level": 5
-        },
-        {
-            "voc": "暑い4",
-            "ans": "あつい4",
             "accent": "2",
             "t_cn": "熱的",
             "group": 1,
