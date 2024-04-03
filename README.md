@@ -15,7 +15,7 @@ This project saves vocabulary as local file *voc_data.json*, if there is any nee
 
 ## How to use
 ---
-When you execute this program, there is a main menu and currently 3 function to use by input 1~3 for function 1~3.
+When you execute this program, there is a main menu and currently 3 function to use by input 1\~3 for function 1\~3.
 
 ## Function introdution
 ---
@@ -41,7 +41,7 @@ To add a new word to dataset is easy. There are only few things to fill in which
 - [accent] is to describe how to pronounce. In Japanese, each word has 1 of 4 types(頭高型、平板型、中高型、尾高型) to pronounce and the number given to means where are high pitch and others are low pitch.
 - [t_cn] is translation of chinese.
 - [group] is to group similar words.
-- [level] difficulty of this vocabulary. In range of  1~5 for N1~N5.
+- [level] difficulty of this vocabulary. In range of  1\~5 for N1\~N5.
 
 When adding new word, command line will ask whether sets same group and level to following words. Input 0 to both means you have to manually input [group] and [level] by yourself until leave this function.
 
